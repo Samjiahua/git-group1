@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:color="#000" android:width="2dp"/>
+            <solid android:color="#999"/>
+
+        </shape>
+    </item>
+    <item>
+        <clip android:gravity="left" android:clipOrientation="horizontal">
+            <shape>
+                <solid android:color="#0ff"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

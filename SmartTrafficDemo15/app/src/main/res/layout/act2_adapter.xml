@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="90dp">
+
+    <TextView
+        android:id="@+id/act2_tv_time"
+        android:text="2017.05.02 圣诞节"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/act2_tv_username"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="斯大林木卡姆是"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/act2_tv_carnumber3"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="斯大林木卡姆是"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="充值："
+        android:textSize="30sp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/act2_tv_money"
+        android:text="0元"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="150dp"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="充值时间"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/act2_tv_times"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="斯大林木卡姆是"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

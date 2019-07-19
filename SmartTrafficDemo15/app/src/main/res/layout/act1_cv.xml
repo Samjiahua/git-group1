@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <com.haibin.calendarview.CalendarView
+        android:id="@+id/act1_vc"
+        app:calendar_match_parent="true"
+        app:max_year="2020"
+        app:min_year="2004"
+        app:current_month_lunar_text_color="#CFCFCF"
+        app:current_month_text_color="#333333"
+        app:calendar_padding="10dp"
+        app:month_view="com.lenovo.smarttraffic.ui.activity.CalenView"
+        android:layout_width="700dp"
+        android:layout_height="match_parent">
+
+    </com.haibin.calendarview.CalendarView>
+
+    <TextView
+        android:id="@+id/act1_tv_time"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

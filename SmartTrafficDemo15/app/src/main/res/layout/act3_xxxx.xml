@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#2db2ff"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/act3x_iv_back"
+            android:background="@mipmap/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="详细信息"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@mipmap/gugong"
+            android:layout_width="500dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="400dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="景点介绍:"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="北京故宫是中国明清两代的皇家宫殿，旧称为紫禁城，位于北京中轴线的中心，是中国古代宫廷建筑之精华。北京故宫以三大殿为中心，占地面积72万平方米，建筑面积约15万平方米，有大小宫殿七十多座，房屋九千余间。是世界上现存规模最大、保存最为完整的木质结构古建筑之一。"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="游友点评"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/act3_tv_blue"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:background="@drawable/act3_tv_blue"
+                    android:layout_width="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:background="@drawable/act3_tv_blue"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:background="@drawable/act3_tv_blue"
+                    android:layout_width="70dp"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_height="70dp" />
+                <TextView
+                    android:background="@drawable/act3_tv_white"
+                    android:layout_width="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="70dp" />
+
+            </LinearLayout>
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:text="联系电话"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/act3_tv_phone"
+                android:textSize="30sp"
+                android:textColor="#000"
+                android:text="010-88888888"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

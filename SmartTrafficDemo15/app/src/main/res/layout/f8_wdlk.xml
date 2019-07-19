@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/f8_lk_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginTop="100dp"
+            android:text="PM2.5当前值:550"
+            android:textSize="@dimen/margin_30" />
+
+        <TextView
+            android:id="@+id/f8_lk_ts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginTop="100dp"
+            android:text="友情提示：不适合出行"
+            android:textSize="@dimen/margin_30" />
+        <VideoView
+            android:id="@+id/f8vv"
+            android:layout_width="200dp"
+            android:layout_marginTop="@dimen/margin_50"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_height="200dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/f8_lk_lt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginTop="100dp"
+            android:text="光照当前值:550"
+            android:textSize="@dimen/margin_30" />
+        <TextView
+            android:id="@+id/f8_lk_ltmax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:text="光照上限值:1000"
+            android:textSize="@dimen/margin_30" />
+        <TextView
+            android:id="@+id/f8_lk_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:text="光照下限值:10"
+            android:textSize="@dimen/margin_30" />
+        <TextView
+            android:id="@+id/f8_lk_ts01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginTop="@dimen/margin_30"
+            android:text="友情提示：不适合出行"
+            android:textSize="@dimen/margin_30" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_marginTop="@dimen/margin_50"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_width="@dimen/margin_80"
+            android:layout_height="40dp"
+            android:background="#f00"/>
+        <View
+            android:layout_marginTop="@dimen/margin_50"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#0f0"/>
+        <View
+            android:layout_marginTop="@dimen/margin_50"
+            android:layout_width="@dimen/margin_80"
+            android:layout_height="40dp"
+            android:background="#f00"/>
+    </LinearLayout>
+        <ProgressBar
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:id="@+id/f8_lk_por"
+            android:background="#000"
+            android:max="4100"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:layout_marginTop="@dimen/margin_80"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="@dimen/margin_30"
+            android:textSize="@dimen/margin_30"
+            android:id="@+id/f8_lk_show"/>
+    </LinearLayout>
+
+</LinearLayout>

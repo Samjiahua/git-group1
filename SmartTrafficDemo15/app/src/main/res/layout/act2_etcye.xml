@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#2db2ff"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/act2_iv_back2"
+            android:background="@mipmap/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="ETC余额"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@drawable/type"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:text="1"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@mipmap/audi"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="鲁B10001"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_weight="1"
+                android:text="车主:王生安"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <TextView
+            android:text="余额："
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="200dp"
+           android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/act2_tv_balance1"
+            android:text="0元"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/type"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:text="2"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@mipmap/baoma"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="鲁B10002"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_weight="1"
+                android:text="车主张顺谷"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <TextView
+            android:text="余额："
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/act2_tv_balance2"
+            android:text="0元"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/type"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:text="3"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@mipmap/benchi"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_marginLeft="150dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="鲁B10003"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_weight="1"
+                android:text="车主:张淮森"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+        <TextView
+            android:text="余额："
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/act2_tv_balance3"
+            android:text="0元"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

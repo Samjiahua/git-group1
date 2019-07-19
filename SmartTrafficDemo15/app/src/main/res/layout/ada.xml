@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shzs"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bk_ccc"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="生活指数（asdasd）"
+            android:textColor="#ccc" />
+
+        <TextView
+            android:id="@+id/max"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bk_ccc"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="最高"
+            android:textColor="#ccc" />
+
+        <TextView
+            android:id="@+id/min"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bk_ccc"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="最低"
+            android:textColor="#ccc" />
+
+        <TextView
+            android:id="@+id/avg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bk_ccc"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="平均值"
+            android:textColor="#ccc" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
